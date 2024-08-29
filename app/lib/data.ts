@@ -97,8 +97,8 @@ export const aboutTabs = [
 ];
 
 export const myStory = [
-  "Hello! I’m Melanie, I graduated with a Bachelor’s Degree in Software Development from Seneca College. At 18, I made a bold decision to leave my family’s dream of becoming a policewoman - a tradition spanning generations - and ventured to Canada to chase my own passion for Software Engineering.",
-  "With a passion for technology and innovation, I’ve honed my skills in various programming languages and development frameworks throughout my academic journey and work experience. My experience includes developing dynamic web applications, designing intuitive user-friendly mobile apps, and writing automated tests.",
+  "Hello! I’m Melanie, I graduated with a Bachelor’s Degree in Software Development from Seneca College. At 18, I made a bold decision to pursue my own passion for Software Engineering, leaving behind my family’s long-standing tradition of becoming police officers, and ventured to Canada to follow my dreams.",
+  "Throughout my academic journey and work experience, I’ve nurtured a deep passion for technology and innovation. I’ve developed dynamic web applications, designed intuitive mobile apps, and written automated tests, gaining proficiency in various programming languages and development frameworks.",
   "As a fast learner with high adaptability, I am always eager to embrace new challenges and expand my knowledge. My ultimate goal is to become a Software Engineer, where I can continuously grow, innovate, and make meaningful contributions to the tech industry.",
 ];
 
