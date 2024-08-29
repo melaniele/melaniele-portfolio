@@ -146,8 +146,6 @@ export const myHobbies = [
   { name: "Hiking", pic: "/pics/hiking.jpeg", event: "Banff, 2024" },
   { name: "Cooking", pic: "/pics/cooking.jpeg", event: "Christmas, 2023" },
   { name: "New Exp.", pic: "/pics/ski.jpeg", event: "Winter, 2022" },
-  // { name: "Yoga", pic: "/pics/yoga.jpeg", event: "Winter 2023" },
-  // { name: "Running", pic: "/pics/running.jpeg", event: "Summer 2022" },
 ];
 
 export const experiences = [
@@ -329,8 +327,8 @@ export const projects = [
     description: "A web-based portfolio made with Next.js and Tailwind CSS.",
     image: "/projects/Portfolio.png",
     links: {
-      demo: "/",
-      github: "",
+      demo: "https://melaniele-portfolio.vercel.app/",
+      github: "https://github.com/melaniele/melaniele-portfolio",
     },
     tech: [
       {
@@ -361,8 +359,8 @@ export const projects = [
     description: "A cross-platform mobile application made with React Native.",
     image: "/projects/RentRetreat.png",
     links: {
-      demo: "/",
-      github: "",
+      demo: "",
+      github: "https://github.com/melaniele/RentRetreat",
     },
     tech: [
       {

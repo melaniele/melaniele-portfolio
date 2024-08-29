@@ -6,7 +6,7 @@ export default function Educations() {
   return (
     <div className="w-full">
       {myEducations.map((item, index) => (
-        <div key={index} className="mb-9">
+        <div key={index} className="mb-14">
           <div className="flex flex-col md:flex-row items-start md:items-center mb-2">
             <a href={item.link} target="_blank" rel="noopener noreferrer">
               <Tooltip text={item.school}>

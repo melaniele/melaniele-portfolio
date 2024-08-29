@@ -12,7 +12,7 @@ export default function Overview() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
         id="overview"
-        className="grid grid-cols-1 sm:grid-cols-12 py-24 h-full min-h-[700px] justify-center items-center my-20"
+        className="grid grid-cols-1 sm:grid-cols-12 h-full min-h-[700px] justify-center items-center mt-20 mb-24"
       >
         <div className="flex flex-col col-span-7 place-self-center text-center">
           {/* Greeting */}
