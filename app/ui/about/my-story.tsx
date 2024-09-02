@@ -6,7 +6,7 @@ export default function MyStory() {
       {myStory.map((element, index) => (
         <p
           key={index}
-          className="text-lg sm:text-xl tracking-wide leading-relaxed mb-14"
+          className="text-lg sm:text-xl tracking-wide leading-relaxed mb-7 lg:mb-16"
         >
           {element}
         </p>

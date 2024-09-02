@@ -31,11 +31,11 @@ export default function About() {
 
   return (
     <section
-      className="flex-1 py-20 h-full min-h-[700px] items-center"
+      className="flex-1 py-10 lg:py-20 h-full min-h-[700px] items-center"
       id="about"
     >
       <div className="mt-4 md:mt-0 text-left h-full">
-        <p className="text-5xl font-bold text-rose pb-10"> About Me</p>
+        <p className="text-5xl font-bold text-rose pb-10">About Me</p>
         {/* Tab section */}
         <div className="flex flex-row justify-start mt-2">
           {aboutTabs.map((section, index) => (

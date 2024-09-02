@@ -18,7 +18,7 @@ export default function Home() {
       {/* padding horizontally & vertical space between elements */}
       {/* <div className="container mx-auto px-5 space-y-10"> */}
       <div className="mx-auto top-0 dark:bg-black">
-        <div className="lg:px-32 sm:px-10 space-y-10">
+        <div className="px-7 lg:px-32 space-y-10">
           <Overview />
           <About />
           <Experience />
