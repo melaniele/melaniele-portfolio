@@ -7,7 +7,7 @@ export default function Footer() {
                dark:bg-slate-800 dark:text-white"
     >
       <div className="p-12 flex flex-col lg:flex-row justify-between items-center">
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           {/* Added flex and gap */}
           <span> &copy; Melanie, {new Date().getFullYear()}</span>
           <HeartIcon width={20} height={20} className="text-dark-rose" />
