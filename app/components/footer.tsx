@@ -14,7 +14,6 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center">
-          <span>Built with</span>
           <span className="font-semibold ml-1">Next.js,</span>
           <span className="font-semibold ml-1">Tailwind CSS</span>, and
           <span className="font-semibold mx-1">Vercel</span>
