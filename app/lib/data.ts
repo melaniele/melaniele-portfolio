@@ -327,7 +327,7 @@ export const projects = [
     description: "A web-based portfolio made with Next.js and Tailwind CSS.",
     image: "/projects/Portfolio.png",
     links: {
-      demo: "https://melaniele-portfolio.vercel.app/",
+      demo: "https://melaniele.vercel.app/",
       github: "https://github.com/melaniele/melaniele-portfolio",
     },
     tech: [
