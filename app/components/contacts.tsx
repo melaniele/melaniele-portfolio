@@ -1,11 +1,13 @@
 "use client";
+import { CircularProgress } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { contactForm, contacts } from "../lib/data";
 
 export default function Contacts() {
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+  const [emailResult, setEmailResult] = useState("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -26,12 +28,21 @@ export default function Contacts() {
     };
 
     try {
+      setEmailResult("");
+      setIsSending(true);
       const response = await fetch(endpoint, options);
       console.log("Fetch response:", response); // Log the response status
+      setIsSending(false);
+
       if (response.ok) {
+        setEmailResult(
+          "Thank you for your time! I have received your email, I'll make sure to get back to you ASAP!"
+        );
         console.log("Email sent successfully!");
-        setEmailSubmitted(true);
       } else {
+        setEmailResult(
+          "Sorry for this inconvenience, there's an error sending your email. Please feel free to reach out to me on LinkedIn, GitHub, or my personal Email (lethihongminh123@gmail.com). Thank you!"
+        );
         console.error("Failed to send email.");
       }
     } catch (error) {
@@ -108,19 +119,28 @@ export default function Contacts() {
               className="bg-dark-rose hover:bg-red text-white font-medium py-3 px-5 rounded-lg w-full
                           focus:ring-offset-2 focus:ring-2 focus:ring-rose 
                           transition ease-in-out duration-200"
+              disabled={isSending}
             >
               {"Send Message"}
             </button>
 
-            {emailSubmitted && (
+            {
               <p
                 className="text-dark-rose font-semibold text-center italic text-xl mt-2
                               dark-text-white"
               >
-                {
-                  "Thank you for your time! I've received your email, I'll make sure to get back to you ASAP!"
-                }
+                {emailResult}
               </p>
+            }
+
+            {isSending && (
+              <div className="flex justify-center my-5">
+                <CircularProgress
+                  size="md"
+                  color="warning"
+                  label="Please wait, email is sending..."
+                />
+              </div>
             )}
           </form>
         </div>

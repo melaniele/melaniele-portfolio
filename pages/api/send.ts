@@ -34,8 +34,8 @@ export default async function POST(req: NextApiRequest, res: NextApiResponse) {
 
     await transporter.sendMail(mailOptions);
     return res.status(200).json({ message: "Email sent successfully" });
-  } catch (error) {
-    console.error("Error sending email:", error);
+  } catch (error: any) {
+    console.error("Error sending email:", error.message);
     return res.status(500).json({ message: "Error sending email" });
   }
 }

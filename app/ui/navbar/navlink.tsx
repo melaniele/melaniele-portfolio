@@ -13,8 +13,8 @@ const NavLink: React.FC<NavLinkProps> = ({ icon, href, title }) => {
   return (
     <Link
       href={href}
-      className="flex items-center py-2 pl-3 pr-4 sm:text-xl rounded md:p-0 text-white 
-                  hover:text-foreground hover:underline underline-offset-8 text-foreground/70"
+      className="flex items-center py-2 px-4 sm:text-xl rounded md:p-0 text-white 
+                  hover:font-semibold hover:underline underline-offset-8 text-foreground/70"
     >
       {/* Render icon only when it exists */}
       {Icon && <Icon width={20} className="mr-1" />}

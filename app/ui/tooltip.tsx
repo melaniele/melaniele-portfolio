@@ -7,7 +7,7 @@ type TooltipProps = {
 
 const Tooltip: React.FC<TooltipProps> = ({ text, children }) => {
   return (
-    <div className="relative flex items-center justify-center group m-1">
+    <div className="relative flex justify-center group m-1">
       {children}
       <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-center">
         <span
