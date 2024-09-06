@@ -630,7 +630,7 @@ export const contactForm = [
     id: "email",
     type: "email",
     label: "Your Email",
-    placeholder: "johndoe@gmail.com",
+    placeholder: "I'll use this to get back to you (e.g. johndoe@gmail.com)",
     inputType: "input",
   },
   {
