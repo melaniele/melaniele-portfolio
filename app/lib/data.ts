@@ -50,12 +50,14 @@ const TestRailIcon = "/icons/tech/testrail.png";
 const DockerIcon = "/icons/tech/Docker.svg";
 const FigmaIcon = "/icons/tech/Figma.svg";
 const AdobeXDIcon = "/icons/tech/Adobe XD.svg";
+const CypressIcon = "/icons/tech/cypress.svg";
 
 // Logos (companies, schools, etc.)
 const SenecaLogo = "/icons/school/seneca-logo.svg";
 const CHLLogo = "/icons/school/chl-logo.png";
 const ParLogo = "/icons/companies/partech.svg";
 const HHSLogo = "/icons/companies/Hamilton-Health-Sciences.png";
+const DFLogo = "/icons/companies/dayforce.png";
 
 export const navbar = [
   { link: "#about", name: "About", icon: UserIcon },
@@ -149,6 +151,51 @@ export const myHobbies = [
 ];
 
 export const experiences = [
+  {
+    company: {
+      name: "Dayforce",
+      location: "Toronto, Canada",
+      logo: {
+        src: DFLogo,
+        alt: "Dayforce Logo",
+        width: 70,
+      },
+      link: "https://dayforce.com/",
+    },
+    title: "Software Developer",
+    duration: "November 2024 - present",
+    tasks: [],
+    tech: [
+      {
+        src: ReactIcon,
+        alt: "ReactJS",
+      },
+      {
+        src: TypeScriptIcon,
+        alt: "TypeScript",
+      },
+      {
+        src: CSharpIcon,
+        alt: "CSharp",
+      },
+      {
+        src: DotNETIcon,
+        alt: "DotNET",
+      },
+      {
+        src: CypressIcon,
+        alt: "Cypress",
+      },
+      {
+        src: GitIcon,
+        alt: "Git",
+      },
+      {
+        src: GitHubIcon,
+        alt: "GitHub",
+      },
+    ],
+  },
   {
     company: {
       name: "PAR Technology",
@@ -550,6 +597,10 @@ export const skills = [
   {
     name: "Automation",
     tech: [
+      {
+        src: CypressIcon,
+        alt: "Cypress",
+      },
       {
         src: SeleniumIcon,
         alt: "Selenium C#",

@@ -21,7 +21,7 @@ export default function Overview() {
               Hello, I&apos;m
               <br />
               <TypeAnimation
-                sequence={[1000, "Melanie! 👋🏻", 1500, "an API Engineer", 1000]}
+                sequence={[1000, "Melanie! 👋🏻", 1500, "a Software Developer", 1000]}
                 wrapper="span"
                 speed={50}
                 style={{ color: "#FF7575", paddingTop: 20 }}

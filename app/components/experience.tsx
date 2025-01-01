@@ -23,7 +23,7 @@ export default function Experience() {
                   <Image
                     src={item.company.logo.src}
                     alt={item.company.logo.alt}
-                    width={100}
+                    width={item.company.logo?.width ?? 100}
                     height={10}
                     className="mr-4 mb-2 md:mb-0"
                   />
