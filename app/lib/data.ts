@@ -207,7 +207,7 @@ export const experiences = [
       link: "https://partech.com/",
     },
     title: "API Engineer",
-    duration: "May 2024 - present",
+    duration: "May 2024 - October 2024",
     tasks: [
       "Developed a full-stack app with React and C# .NET using LaunchDarkly API for streamlined feature flag management, empowering teams to manage features independently, and resolve cost issue.",
       "Debugged legacy C# .NET code rigorously, enhancing system stability.",
