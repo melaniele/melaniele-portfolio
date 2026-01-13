@@ -1,4 +1,5 @@
 ## My portfolio
+![portfolio](https://github.com/user-attachments/assets/64bc577b-159f-4b12-a7ce-b4222776beb4)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
