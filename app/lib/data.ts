@@ -171,7 +171,7 @@ export const experiences = [
     tasks: [
       "Delivered full-stack features for Payroll Next Gen ROE and Auto Adjust for UPS Canada, helping support Dayforce’s largest enterprise customer population of 700K+ employees and a high-value account representing $10.8M in annual revenue and $7.7M in one-time fees.",
       "Developed and stabilized payroll features across React, TypeScript, C#, .NET, GraphQL, REST APIs, SQL, and microservices, supporting approximately 15,000 Canadian employees and enabling compliance-critical Canadian payroll functionality in Next Gen.",
-      "Helped close a major feature parity gap between Classic Payroll and Payroll Next Gen by delivering federally mandated ROE functionality, unblocking Canadian customer migration and reducing compliance and operational risk.",
+      "Contributed to closing a major feature parity gap between Classic Payroll and Payroll Next Gen by delivering federally mandated ROE functionality, unblocking Canadian customer migration and reducing compliance and operational risk.",
       "Validated ROE at enterprise scale by testing 4,000 ROE records within a 21,000-employee pay run while maintaining stable payroll calculation and commit performance.",
       "Owned feature delivery from implementation through testing, bug investigation, QA collaboration, and post-release stabilization for customer-critical ROE and Auto Adjust workflows."
     ],
