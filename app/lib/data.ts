@@ -51,6 +51,10 @@ const DockerIcon = "/icons/tech/Docker.svg";
 const FigmaIcon = "/icons/tech/Figma.svg";
 const AdobeXDIcon = "/icons/tech/Adobe XD.svg";
 const CypressIcon = "/icons/tech/cypress.svg";
+const GraphQLIcon = "/icons/tech/graphql.svg.webp";
+const CopilotIcon = "/icons/tech/github-copilot.webp";
+const SonarQubeIcon = "/icons/tech/sonarqube.webp";
+const SQLIcon = "/icons/tech/SQL-server.svg.webp";
 
 // Logos (companies, schools, etc.)
 const SenecaLogo = "/icons/school/seneca-logo.svg";
@@ -162,9 +166,15 @@ export const experiences = [
       },
       link: "https://dayforce.com/",
     },
-    title: "Software Developer",
+    title: "Software Developer II",
     duration: "November 2024 - present",
-    tasks: [],
+    tasks: [
+      "Delivered full-stack features for Payroll Next Gen ROE and Auto Adjust for UPS Canada, helping support Dayforce’s largest enterprise customer population of 700K+ employees and a high-value account representing $10.8M in annual revenue and $7.7M in one-time fees.",
+      "Developed and stabilized payroll features across React, TypeScript, C#, .NET, GraphQL, REST APIs, SQL, and microservices, supporting approximately 15,000 Canadian employees and enabling compliance-critical Canadian payroll functionality in Next Gen.",
+      "Helped close a major feature parity gap between Classic Payroll and Payroll Next Gen by delivering federally mandated ROE functionality, unblocking Canadian customer migration and reducing compliance and operational risk.",
+      "Validated ROE at enterprise scale by testing 4,000 ROE records within a 21,000-employee pay run while maintaining stable payroll calculation and commit performance.",
+      "Owned feature delivery from implementation through testing, bug investigation, QA collaboration, and post-release stabilization for customer-critical ROE and Auto Adjust workflows."
+    ],
     tech: [
       {
         src: ReactIcon,
@@ -183,6 +193,14 @@ export const experiences = [
         alt: "DotNET",
       },
       {
+        src: GraphQLIcon,
+        alt: "GraphQL",
+      },
+      {
+        src: SQLIcon,
+        alt: "Microsoft SQL Server",
+      },
+      {
         src: CypressIcon,
         alt: "Cypress",
       },
@@ -193,6 +211,14 @@ export const experiences = [
       {
         src: GitHubIcon,
         alt: "GitHub",
+      },
+      {
+        src: CopilotIcon,
+        alt: "GitHub Copilot",
+      },
+      {
+        src: SonarQubeIcon,
+        alt: "SonarQube",
       },
     ],
   },
@@ -615,7 +641,6 @@ export const skills = [
       },
     ],
   },
-
   {
     name: "Tools/Others",
     tech: [

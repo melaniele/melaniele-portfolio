@@ -41,7 +41,7 @@ export default function Overview() {
             </a>
             {/* Resume button */}
             <a
-              href="/files/Melanie's Resume.pdf"
+              href="/files/Melanie Le - Software Engineer Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
